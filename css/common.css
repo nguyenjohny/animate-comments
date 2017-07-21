@@ -1,0 +1,47 @@
+
+.revealed {
+  transform: scale(1);
+}
+
+a.btn .row2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translateY(100%);
+}
+
+a.btn:hover .row1 {
+  transform: translateY(-100%);
+}
+
+a.btn:hover .row2 {
+  transform: translateY(0);
+}
+
+.issue-template {
+  width: 95%;
+  box-shadow: 0 0 4px black;
+  padding: 16px 15px;
+  text-align: left;
+  display: block;
+  transition-delay: 0.1s;
+}
+
+.enhanced .issue-template {
+  transition: transform 600ms;
+  transform: scale(0.8);
+}
+
+.issue-template.revealed {
+  transform: scale(0.95);
+}
+
+.avatar {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}

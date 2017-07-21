@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Testing CSS animations</title>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!--script src="lodash.core.js"></script-->
+
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="css/jumbotron-narrow.css" rel="stylesheet">
+        <link href="css/common.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="jumbotron">
+                <h1>CSS Viewport animations!</h1>
+                <p class="lead">click to load jsonp file of issues.</p>
+                <p>
+                    <button id="loadFile" type="button" class="btn btn-lg btn-success"> Start </button>
+                </p>
+            </div>       
+            <hr />
+            <div id="view-port"> </div>
+        </div>       
+        <script src="animated-issue.js"></script>
+
+        <script type="text/javascript">
+        $(document).ready(() => {
+            // local test file
+            var dataUrl='test.jsonp';
+            $('#loadFile').click(function() {
+                loadIssues({ dataUrl, dataType: 'jsonp', jsonpCbFunc: 'cb'});
+                return false;
+            });
+        });
+        </script>
+    </body> 
+</html>

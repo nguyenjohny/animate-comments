@@ -1,0 +1,82 @@
+cb([
+   {
+      "id":3,
+      "description":"We forgot to turn on the SimCity servers. It will take us a couple of days to find the on switch. We don't care.",
+      "title":"No one can play our game!",
+      "beganAt":"2017-03-05 23:15 Z",
+      "resolvedAt":"2017-03-05 23:22 Z",
+      "status":"Resolved",
+      "updates":[
+         {
+            "id":8,
+            "by":"Johny",
+            "avatar":"https://avatars1.githubusercontent.com/u/948465?v=4&u=161f9ae72560fd2250904b9bf6b7eae45561bb51&s=400",
+            "at":"2017-03-05 23:22 Z",
+            "update":"We plugged in some laptops, that should do it..."
+         },
+         {
+            "id":7,
+            "by":"Johny",
+            "avatar":"https://avatars1.githubusercontent.com/u/948465?v=4&u=161f9ae72560fd2250904b9bf6b7eae45561bb51&s=400",
+            "at":"2017-03-05 23:21 Z",
+            "update":"Despite the huge amount of pre-release publicity and pre-orders, we didn't expect any one to try and play on launch day. How could we, it's not like we're a multinational video game company or anything"
+         }
+      ]
+   },
+   {
+      "id":2,
+      "description":"Looks like a large lizard is bringing down your buildings.",
+      "title":"It's GODZILLA!!!",
+      "beganAt":"2017-03-06 16:28 Z",
+      "resolvedAt":"2017-03-06 17:32 Z",
+      "status":"Resolved",
+      "updates":[
+         {
+            "id":6,
+            "by":"JD",
+            "avatar":"http://vignette3.wikia.nocookie.net/rickandmorty/images/f/f1/Jerry_Smith.png/revision/latest?cb=20160923151111",
+            "at":"2017-03-06 17:32 Z",
+            "update":"He's down, looks like the airforce has got him. Bring out yer dead."
+         },
+         {
+            "id":5,
+            "by":"Jerry",
+            "avatar":"http://vignette3.wikia.nocookie.net/rickandmorty/images/f/f1/Jerry_Smith.png/revision/latest?cb=20160923151111",
+            "at":"2017-03-06 17:06 Z",
+            "update":"The lizard is heading towards the river, we're calling in some A10's so we should have this stuff sorted soonish."
+         },
+         {
+            "id":3,
+            "by":"Jerry",
+            "avatar":"http://vignette3.wikia.nocookie.net/rickandmorty/images/f/f1/Jerry_Smith.png/revision/latest?cb=20160923151111",
+            "at":"2017-03-06 16:33 Z",
+            "update":"Whoa, where did this thing come from. Old fella is heading up towards the power stations, good thing we put the sewage there too."
+         }
+      ]
+   },
+   {
+      "id":3,
+      "description":"We forgot to turn on the SimCity servers. It will take us a couple of days to find the on switch. We don't care.",
+      "title":"No one can play our game!",
+      "beganAt":"2017-03-05 23:15 Z",
+      "resolvedAt":"2017-03-05 23:22 Z",
+      "status":"Resolved",
+      "updates":[
+         {
+            "id":8,
+            "by":"Johny",
+            "avatar":"https://avatars1.githubusercontent.com/u/948465?v=4&u=161f9ae72560fd2250904b9bf6b7eae45561bb51&s=400",
+            "at":"2017-03-05 23:22 Z",
+            "update":"We plugged in some laptops, that should do it..."
+         },
+         {
+            "id":7,
+            "by":"Johny",
+            "avatar":"https://avatars1.githubusercontent.com/u/948465?v=4&u=161f9ae72560fd2250904b9bf6b7eae45561bb51&s=400",
+            "at":"2017-03-05 23:21 Z",
+            "update":"Despite the huge amount of pre-release publicity and pre-orders, we didn't expect any one to try and play on launch day. How could we, it's not like we're a multinational video game company or anything"
+         }
+      ]
+   },
+
+])
